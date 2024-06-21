@@ -1,0 +1,88 @@
+
+/* import the font you like, or just use sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 22px;
+    font-family: "DM Sans",  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+h1 {
+    color: black;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.date {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 3px;
+}
+
+.mail a {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.testo-logo {
+    margin-left: 10px;
+}
+
+a {
+    /* choose the color you like, or the color of your app */
+    color: #7086FE;
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 70px;
+    }
+    .testo-logo {
+        left: 80px;
+        top: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
