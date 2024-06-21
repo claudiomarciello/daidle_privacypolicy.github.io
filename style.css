@@ -1,6 +1,5 @@
 
 /* import the font you like, or just use sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 * {
     margin: 0;
@@ -12,7 +11,7 @@
 body {
     margin: 0 auto;
     padding: 22px;
-    font-family: "DM Sans",  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
     background-color: white;
     scroll-behavior: smooth;
 }
@@ -66,7 +65,7 @@ h2 {
 
 a {
     /* choose the color you like, or the color of your app */
-    color: #7086FE;
+    color: #000000;
     text-decoration: none;
 }
 
